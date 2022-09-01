@@ -1,72 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500&family=Roboto:wght@300;400&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500&family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    background-color: #F1F1F1;
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #f1f1f1;
 }
-.App{
-    width: 300px;
-    height: 100vh;
+.App {
+  width: 300px;
+  height: 100vh;
 }
-.ExpenseTracker{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+.ExpenseTracker {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
-.ExpenseTracker *{
-    margin-bottom: 2vh;
+.ExpenseTracker * {
+  margin-bottom: 2vh;
 }
-.Balance{
-
+.Balance {
 }
-.BalanceContainer{
-    background-color: white;
-    border: 1px lightgray solid;
-    box-shadow: 2px 2px  2px rgba(255, 255, 255, 0.3);
-    display: flex;
-    align-items: center;
+.BalanceContainer {
+  background-color: white;
+  border: 1px lightgray solid;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
 }
-.BalanceContainer *{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-}
-
-.incomeValue{
-    color: lightgreen;
-} 
-.expenseValue{
-    color: red;
+.BalanceContainer * {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  text-transform: uppercase;
 }
 
-.History{
-    display: flex;
-    flex-direction: column;
+.incomeValue {
+  color: lightgreen;
 }
-.History *{
-    display: flex;
-    justify-content: space-between;
+.expenseValue {
+  color: red;
 }
 
-.SingleHistorypos{
-    border: 5px lightgreen solid;
+.History {
+  display: flex;
+  flex-direction: column;
+}
+.History * {
+  display: flex;
+  justify-content: space-between;
 }
 
-.SingleHistoryneg{
-    border: 5px red solid;
+.SingleHistorypos {
+  border: 5px lightgreen solid;
 }
 
-.AddTransactionForm *{
-    display: flex;
-    flex-direction: column;
+.SingleHistoryneg {
+  border: 5px red solid;
+}
+
+.AddTransactionForm * {
+  display: flex;
+  flex-direction: column;
 }

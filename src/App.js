@@ -1,13 +1,13 @@
-import './App.css'
-import ExpenseTracker from './ExpenseTracker';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "./App.css";
+import ExpenseTracker from "./ExpenseTracker";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  return (
-    <div className="App">
-      <ExpenseTracker />
-    </div>
-  );
+	return (
+		<div className="App">
+			<ExpenseTracker />
+		</div>
+	);
 }
 
 export default App;
